@@ -7,13 +7,12 @@ public class Calculadora {
     static int operacion;
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
-        System.out.println("Bienvenido a la calculadora");
+        System.out.println("Bienvenido a la calculadora: ");
         System.out.println("ingresa tu primer numero: ");
         num1 = Double.parseDouble(br.readLine());
         System.out.println("ingresa tu segundo numero: ");
-        num1 = Double.parseDouble(br.readLine());
+        num2 = Double.parseDouble(br.readLine());
         System.out.println("Que operacion quieres realizar: ");
-        num1 = Double.parseDouble(br.readLine());
         System.out.println("1. +");
         System.out.println("2. -");
         System.out.println("3. *");
